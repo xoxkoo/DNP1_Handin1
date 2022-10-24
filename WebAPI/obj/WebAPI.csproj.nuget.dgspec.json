@@ -4,6 +4,63 @@
     "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/WebAPI.csproj": {}
   },
   "projects": {
+    "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj",
+        "packagesPath": "/Users/antondurcak/.nuget/packages/",
+        "outputPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/antondurcak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj": {
+                "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/antondurcak/.dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -79,6 +136,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj": {
+                "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj"
+              },
               "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj": {
                 "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj"
               }
@@ -136,6 +196,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj": {
+                "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj"
+              },
               "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/FileData/FileData.csproj": {
                 "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/FileData/FileData.csproj"
               }

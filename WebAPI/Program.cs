@@ -1,3 +1,8 @@
+using App.DaoInterfaces;
+using Application.Logic;
+using Application.LogicInterfaces;
+using FileData;
+using FileData.DAOs;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Identity.Web;
@@ -12,6 +17,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<FileContext>();
+builder.Services.AddScoped<IUserDao, UserFileDao>();
+builder.Services.AddScoped<IUserLogic, UserLogic>();
 
 var app = builder.Build();
 
