@@ -397,22 +397,9 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "App/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/App.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/App.dll": {}
-        }
-      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "App": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -1240,11 +1227,6 @@
         "version.txt"
       ]
     },
-    "App/1.0.0": {
-      "type": "project",
-      "path": "../App/App.csproj",
-      "msbuildProject": "../App/App.csproj"
-    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -1258,7 +1240,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "App >= 1.0.0",
       "FileData >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.8",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 6.0.8",
@@ -1291,9 +1272,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/App/App.csproj": {
-              "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/App/App.csproj"
-            },
             "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/FileData/FileData.csproj": {
               "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/FileData/FileData.csproj"
             }

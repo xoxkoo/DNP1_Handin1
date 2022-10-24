@@ -2,22 +2,9 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "App/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/App.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/App.dll": {}
-        }
-      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "App": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -28,11 +15,6 @@
     }
   },
   "libraries": {
-    "App/1.0.0": {
-      "type": "project",
-      "path": "../App/App.csproj",
-      "msbuildProject": "../App/App.csproj"
-    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
