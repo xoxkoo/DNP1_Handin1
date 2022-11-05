@@ -5,12 +5,12 @@
 @inject IPostService postService
 @inject NavigationManager navMgr
 
-@* <AuthorizeView> *@
-@* 	<NotAuthorized> *@
+<AuthorizeView>
+	<NotAuthorized>
 		<h2 style="text-align: center; padding: 3em">You have to be logged in to create a new post ❌</h2>
-		<a href="/" class="link-primary text-center d-block">home</a>
-	@* </NotAuthorized> *@
-	@* <Authorized> *@
+		<a href="/account" class="link-primary text-center d-block">log in</a>
+	</NotAuthorized>
+	<Authorized>
 		<header class="masthead" style="background-image: url('img/home-bg.jpg')">
 			<div class="container position-relative px-4 px-lg-5">
 				<div class="row gx-4 gx-lg-5 justify-content-center">
@@ -24,10 +24,10 @@
 			</div>
 		</header>
 
-		<CreatePostForm/>
+		<CreatePostForm username="@context.User.Identity.Name"/>
 
-@* 	</Authorized> *@
-@* </AuthorizeView> *@
+	</Authorized>
+</AuthorizeView>
 
 @code {
 

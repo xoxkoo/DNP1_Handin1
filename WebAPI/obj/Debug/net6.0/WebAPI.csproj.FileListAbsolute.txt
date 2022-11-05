@@ -5,16 +5,7 @@
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/WebAPI.runtimeconfig.json
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/WebAPI.dll
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/WebAPI.pdb
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Azure.Core.dll
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Azure.Identity.dll
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Azure.Security.KeyVault.Certificates.dll
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Azure.Security.KeyVault.Secrets.dll
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Microsoft.Identity.Client.dll
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Microsoft.Identity.Web.dll
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
@@ -25,8 +16,6 @@
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Application.dll
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Domain.dll
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/FileData.dll

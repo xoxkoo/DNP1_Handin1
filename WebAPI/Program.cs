@@ -7,6 +7,7 @@ using FileData.DAOs;
 using HttpClients.ClientInterfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Shared.Auth;
 using WebAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -41,6 +42,7 @@ builder.Services.AddScoped<IUserLogic, UserLogic>();
 builder.Services.AddScoped<IPostDao, PostFileDao>();
 builder.Services.AddScoped<IPostLogic, PostLogic>();
 
+AuthorizationPolicies.AddPolicies(builder.Services);
 
 var app = builder.Build();
 

@@ -14,12 +14,11 @@ builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 // adding services app will use
+builder.Services.AddScoped(sp => new HttpClient {BaseAddress = new Uri(builder.HostEnvironment.BaseAddress)});
 builder.Services.AddScoped<IUserService, UserHttpClient>();
 builder.Services.AddScoped<IPostService, PostHttpClient>();
 builder.Services.AddScoped<IAuthService, JwtAuthService>();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthProvider>();
-
-builder.Services.AddScoped(sp => new HttpClient {BaseAddress = new Uri(builder.HostEnvironment.BaseAddress)});
 
 AuthorizationPolicies.AddPolicies(builder.Services);
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WSnChPMX3NreZFGsOUQdmDLRf27t9kA9X39YagPd5SE=",
+  "Hash": "1/R/+YxPuPlwbc4knKko+PivJ9I4ZdAfHRHMHqKTZKc=",
   "Source": "BlazorWasm",
   "BasePath": "/",
   "Mode": "Root",
@@ -48,7 +48,7 @@
       "AssetTraitValue": "boot",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.aspnetcore.components.webassembly/6.0.8/build/net6.0/blazor.webassembly.js"
+      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.aspnetcore.components.webassembly/6.0.10/build/net6.0/blazor.webassembly.js"
     },
     {
       "Identity": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/BlazorWasm.dll",
@@ -337,7 +337,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.aspnetcore.components.forms/6.0.8/lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.aspnetcore.components.forms/6.0.10/lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
@@ -354,7 +354,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.aspnetcore.components.web/6.0.8/lib/net6.0/Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.aspnetcore.components.web/6.0.10/lib/net6.0/Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -371,7 +371,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.aspnetcore.components.webassembly/6.0.8/lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll"
+      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.aspnetcore.components.webassembly/6.0.10/lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
       "Identity": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
@@ -524,7 +524,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/lib/net6.0/Microsoft.Extensions.DependencyInjection.dll"
+      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.1/lib/net6.0/Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -660,7 +660,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.jsinterop/6.0.8/lib/net6.0/Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.jsinterop/6.0.10/lib/net6.0/Microsoft.JSInterop.dll"
     },
     {
       "Identity": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll",
@@ -677,7 +677,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.jsinterop.webassembly/6.0.8/lib/net6.0/Microsoft.JSInterop.WebAssembly.dll"
+      "OriginalItemSpec": "/Users/antondurcak/.nuget/packages/microsoft.jsinterop.webassembly/6.0.10/lib/net6.0/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
       "Identity": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.VisualBasic.Core.dll",
@@ -4080,6 +4080,23 @@
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/System.Text.Json.dll"
     },
     {
+      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/8FdqJjSE.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/8hYoC06w.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -4607,21 +4624,21 @@
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
     },
     {
-      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/eLehtQ2n.gz",
+      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/EIlcq3vL.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
       "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll",
+      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll"
+      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/esGW1ILw.gz",
@@ -4879,6 +4896,23 @@
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Metadata.dll"
     },
     {
+      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/GBD1IRul.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.webassembly.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js"
+    },
+    {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/gDvpMq+S.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -4945,23 +4979,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/System.Net.NetworkInformation.dll"
-    },
-    {
-      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/gPl7bTcA.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/GTE7JAkw.gz",
@@ -5406,6 +5423,23 @@
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/System.Threading.ThreadPool.dll"
     },
     {
+      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/K7r67L9J.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/kDEwJUBW.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -5644,6 +5678,23 @@
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/System.Threading.dll"
     },
     {
+      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/mM9w+3+t.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
+    },
+    {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/MSQuYRLR.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -5676,23 +5727,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Cng.dll"
-    },
-    {
-      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/NBwFC82o.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/NeXQyJyt.gz",
@@ -5880,23 +5914,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/dotnet.timezones.blat"
-    },
-    {
-      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/pDDvLQuo.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.dll"
     },
     {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/PDrwaDE8.gz",
@@ -6171,23 +6188,6 @@
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Timer.dll"
     },
     {
-      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/rVkMoQKY.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll"
-    },
-    {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/RWmNRk0o.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -6460,23 +6460,6 @@
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/System.IO.IsolatedStorage.dll"
     },
     {
-      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/u15Z+JU9.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/blazor.webassembly.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js"
-    },
-    {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/u4HUI7I4.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -6577,23 +6560,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/System.IO.Compression.FileSystem.dll"
-    },
-    {
-      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/vBLs+rmF.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/vllQlbHX.gz",
@@ -6902,6 +6868,23 @@
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XDocument.dll"
     },
     {
+      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/YI1cHrKP.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll"
+    },
+    {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/YrcM+eUe.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -6953,6 +6936,23 @@
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/System.Net.Quic.dll"
     },
     {
+      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/zVpd87wi.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll"
+    },
+    {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/zXimuvCW.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -7002,23 +7002,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/scopedcss/projectbundle/BlazorWasm.bundle.scp.css"
-    },
-    {
-      "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/wwwroot/appsettings.json",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "appsettings.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "settings",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/appsettings.json"
     },
     {
       "Identity": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/wwwroot/css/app.css",

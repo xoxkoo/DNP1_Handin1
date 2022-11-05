@@ -283,15 +283,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.8, )"
-            },
-            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
-              "target": "Package",
-              "version": "[6.0.8, )"
-            },
-            "Microsoft.Identity.Web": {
-              "target": "Package",
-              "version": "[1.16.0, )"
+              "version": "[6.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

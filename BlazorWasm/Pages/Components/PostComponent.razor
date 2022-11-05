@@ -1,5 +1,7 @@
 @using Domain.Models
+@using HttpClients.ClientInterfaces
 @namespace Components
+@inject IUserService userService
 
 <div class="post-preview">
 	<img class="post-img" src="img/mac.jpg" alt="image">
@@ -8,12 +10,28 @@
 		<h3 class="post-subtitle">@Post.Body</h3>
 	</a>
 	<p class="post-meta">
-
+		Posted by @username
 	</p>
 </div>
 
 @code {
 	[Parameter] public Post? Post { get; set; }
-	[Parameter] public User? User { get; set; }
+	// [Parameter] public User? User { get; set; }
+
+	private string username;
+
+	protected override async Task OnInitializedAsync()
+	{
+		await getUsernameAsync();
+	}
+
+	private async Task getUsernameAsync()
+	{
+		User user = await userService.GetUserAsync(Post.OwnerId);
+		if (user != null)
+		{
+			username = user.UserName;
+		}
+	}
 
 }

@@ -3,6 +3,7 @@
 @using HttpClients.ClientInterfaces
 @namespace Components
 @inject IPostService postService
+@inject IUserService userService
 @inject NavigationManager navMgr
 
 <PopUp ShowModal="showModal" Type="success">
@@ -36,6 +37,10 @@
 </div>
 
 @code {
+
+	[Parameter]
+	public string username { get; set; }
+
 	private string title;
 	private string body;
 	private int postId;
@@ -66,8 +71,10 @@
 
 		try
 		{
+			IEnumerable<User> users = await userService.GetUsersAsync(username);
+
 			//TODO id change later
-			PostDto dto = new(1, title, body);
+			PostDto dto = new(users.FirstOrDefault().Id, title, body);
 			Post post = await postService.CreateAsync(dto);
 
 			postId = post.Id;

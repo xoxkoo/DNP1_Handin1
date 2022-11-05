@@ -18,7 +18,7 @@
 
 <div class="form-holder">
 	<button class="btn btn-danger" @onclick="Logout">Logout</button>
-	<a href="/createpost" class="btn btn-primary">Create post</a>
+	<button @onclick="@(() => { navMgr.NavigateTo("/createpost");})" class="btn btn-primary">Create post</button>
 </div>
 
 @code {

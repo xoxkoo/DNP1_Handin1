@@ -13,7 +13,7 @@
 				<div class="col-md-10 col-lg-8 col-xl-7">
 					<div class="site-heading">
 						<h1>@post.Title</h1>
-						<span class="subheading">Post created by</span>
+						<span class="subheading">Post created by @username </span>
 					</div>
 				</div>
 			</div>
@@ -30,18 +30,17 @@
 
 	[Parameter]
 	public int Id { get; set; }
-	private string msg;
-	private User user;
 	private Post? post;
+	private string username;
 
 	protected override async Task OnInitializedAsync()
 	{
-		msg = "";
 		try
 		{
 			IEnumerable<Post> posts = await postService.GetAsync(null, Id, null);
 			Console.WriteLine(posts.First().Body);
-			post = posts.First();
+			post = posts.FirstOrDefault();
+			await getUsernameAsync();
 
 			// user = await userService.GetUserAsync(post.OwnerId);
 
@@ -49,7 +48,17 @@
 		catch (Exception e)
 		{
 			Console.WriteLine(e);
-			msg = e.Message;
+		}
+	}
+
+
+	private async Task getUsernameAsync()
+	{
+		User user = await userService.GetUserAsync(post.OwnerId);
+		Console.WriteLine(user.UserName);
+		if (user != null)
+		{
+			username = user.UserName;
 		}
 	}
 

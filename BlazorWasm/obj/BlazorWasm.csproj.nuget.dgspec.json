@@ -51,10 +51,9 @@
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.8, )"
             }

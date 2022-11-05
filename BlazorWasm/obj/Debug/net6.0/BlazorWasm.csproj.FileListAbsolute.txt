@@ -614,16 +614,12 @@
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/FZVPwn3n.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/dU1ImkCZ.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/+IyCgPP1.gz
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/NBwFC82o.gz
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/gPl7bTcA.gz
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/rVkMoQKY.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/VqPHTG6Z.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/dmeG4lcC.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/3iYeCjx0.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/m+CLVY3E.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/XzLdgI+9.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/74RTp4Pt.gz
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/vBLs+rmF.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/i5yaTLbc.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/o1by0+1q.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/X2yFAdxF.gz
@@ -632,8 +628,6 @@
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/0i1Pd+aw.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/Ig3e+U3n.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/zXimuvCW.gz
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/pDDvLQuo.gz
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/eLehtQ2n.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/fNrupsaB.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/ytS7M8P0.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/WxMTEUyh.gz
@@ -810,7 +804,6 @@
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/+KjiMlnY.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/fCl9Yo65.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/hYFuVKFh.gz
-/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/u15Z+JU9.gz
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/blazor.boot.json
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/staticwebassets.build.json
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/staticwebassets.development.json
@@ -832,3 +825,10 @@
 /Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/sP2JBrlw.gz
 /Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/scopedcss/Shared/PopUp.razor.rz.scp.css
 /Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/scopedcss/projectbundle/BlazorWasm.bundle.scp.css
+/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/mM9w+3+t.gz
+/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/EIlcq3vL.gz
+/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/YI1cHrKP.gz
+/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/8FdqJjSE.gz
+/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/K7r67L9J.gz
+/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/zVpd87wi.gz
+/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/GBD1IRul.gz

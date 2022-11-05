@@ -68,8 +68,6 @@ public class JwtAuthService : IAuthService
         HttpResponseMessage response = await client.PostAsync("https://localhost:7208/auth/register", content);
         string responseContent = await response.Content.ReadAsStringAsync();
 
-        Console.WriteLine(responseContent);
-
         if (!response.IsSuccessStatusCode)
         {
             throw new Exception(responseContent);
