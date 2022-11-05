@@ -1,4 +1,5 @@
 
+using Domain.DTOs;
 using Domain.Models;
 
 namespace WebAPI.Services;
@@ -6,5 +7,5 @@ namespace WebAPI.Services;
 public interface IAuthService
 {
 	Task<User> ValidateUser(string username, string password);
-	Task RegisterUser(User user);
+	Task<User> RegisterUser(UserCreationDto userCreationDto);
 }

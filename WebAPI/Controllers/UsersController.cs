@@ -21,6 +21,7 @@ public class UsersController : ControllerBase
 		try
 		{
 			User user = await userLogic.CreateAsync(dto);
+			Console.WriteLine(user.UserName);
 			return Created($"/users/{user.Id}", user);
 		}
 		catch (Exception e)

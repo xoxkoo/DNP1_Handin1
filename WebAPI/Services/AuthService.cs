@@ -13,18 +13,7 @@ public class AuthService : IAuthService
 {
 
 	private IUserService userService = new UserHttpClient(new HttpClient());
-	private readonly IList<User> users2 = new List<User>
-	{
-		new User
-		{
-			UserName = "trmo",
-			Password = "onetwo3FOUR",
-
-		}
-	};
-
 	private IEnumerable<User> users;
-
 
 	public async Task<User> ValidateUser(string username, string password)
 	{
@@ -47,22 +36,34 @@ public class AuthService : IAuthService
 		return await Task.FromResult(existingUser);
 	}
 
-	public Task RegisterUser(User user)
+	public async Task<User> RegisterUser(UserCreationDto dto)
 	{
 
-		if (string.IsNullOrEmpty(user.UserName))
+		users = await userService.GetUsersAsync();
+
+		if (string.IsNullOrEmpty(dto.UserName))
 		{
 			throw new ValidationException("Username cannot be null");
 		}
 
-		if (string.IsNullOrEmpty(user.Password))
+		if (string.IsNullOrEmpty(dto.Password))
 		{
 			throw new ValidationException("Password cannot be null");
 		}
-		// Do more user info validation here
 
-		userService.CreateAsync(new UserAuthDto(user.UserName, user.Password));
+		User? existingUser = users.FirstOrDefault(u =>
+			u.UserName.Equals(dto.UserName, StringComparison.OrdinalIgnoreCase));
 
-		return Task.CompletedTask;
+		if (existingUser != null)
+		{
+			throw new Exception("This username is taken");
+		}
+
+		if (dto.Password != dto.PasswordRepeat)
+		{
+			throw new ValidationException("Passwords do not match");
+		}
+
+		return await userService.CreateAsync(new UserAuthDto(dto.UserName, dto.Password));
 	}
 }

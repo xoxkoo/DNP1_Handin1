@@ -9,6 +9,21 @@
       "Id": 2,
       "UserName": "Andrew",
       "Password": "password"
+    },
+    {
+      "Id": 3,
+      "UserName": "string",
+      "Password": "string"
+    },
+    {
+      "Id": 4,
+      "UserName": "hello",
+      "Password": "string"
+    },
+    {
+      "Id": 5,
+      "UserName": "Xoxo",
+      "Password": "123456"
     }
   ],
   "Post": [
@@ -29,6 +44,18 @@
       "OwnerId": 1,
       "Title": "string",
       "Body": "string"
+    },
+    {
+      "Id": 4,
+      "OwnerId": 1,
+      "Title": "Hello",
+      "Body": "there"
+    },
+    {
+      "Id": 5,
+      "OwnerId": 1,
+      "Title": "This is post",
+      "Body": "this is description"
     }
   ]
 }

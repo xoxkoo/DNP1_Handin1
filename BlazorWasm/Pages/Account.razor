@@ -1,0 +1,17 @@
+@page "/account"
+@using Components
+
+@inject NavigationManager navMgr
+
+<AuthorizeView>
+	<NotAuthorized>
+		<LoginComponent/>
+	</NotAuthorized>
+	<Authorized>
+		<AccountComponent username="@context.User.Identity.Name"/>
+	</Authorized>
+</AuthorizeView>
+
+@code {
+
+}

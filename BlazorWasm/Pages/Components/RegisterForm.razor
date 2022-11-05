@@ -1,4 +1,5 @@
 @using BlazorWasm.Services
+@using Domain.Models
 @namespace Components
 
 @inject IAuthService authService;
@@ -18,10 +19,15 @@
 						<input @bind="password" class="form-control" type="password" name="password" placeholder="Password" required>
 						<div class="text-danger @(showLabel ? "" : "d-none")">@(string.IsNullOrEmpty(password) ? "Password cannot be empty!" : "")</div>
 					</div>
+
+					<div class="col-md-12">
+						<input @bind="passwordRepeat" class="form-control" type="password" name="passwordRepeat" placeholder="Repeat Password" required>
+						<div class="text-danger @(showLabel ? "" : "d-none")">@(string.IsNullOrEmpty(passwordRepeat) ? "Password cannot be empty!" : "")</div>
+					</div>
 					<div class="text-danger">@errorLabel</div>
 
 					<div class="form-button mt-3">
-						<button id="submit" @onclick="LoginAsync" class="btn btn-primary">Login</button>
+						<button id="submit" @onclick="RegisterAsync" class="btn btn-primary">Register</button>
 					</div>
 				</div>
 			</div>
@@ -32,12 +38,11 @@
 @code {
 	private string userName;
 	private string password;
+	private string passwordRepeat;
 	private string errorLabel;
-	private string passwordLabel;
-	private string usernameLabel;
 	private bool showLabel = false;
 
-	private async Task LoginAsync()
+	private async Task RegisterAsync()
 	{
 		errorLabel = "";
 
@@ -53,9 +58,15 @@
 			return;
 		}
 
+		if (string.IsNullOrEmpty(passwordRepeat))
+		{
+			showLabel = true;
+			return;
+		}
+
 		try
 		{
-			await authService.LoginAsync(userName, password);
+			await authService.RegisterAsync(new (userName, password, passwordRepeat));
 		}
 		catch (Exception e)
 		{

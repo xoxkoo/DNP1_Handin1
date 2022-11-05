@@ -17,8 +17,10 @@ public class UserHttpClient : IUserService
 
 	public async Task<User> CreateAsync(UserAuthDto dto)
 	{
-		HttpResponseMessage response = await client.PostAsJsonAsync("/users", dto);
+		HttpResponseMessage response = await client.PostAsJsonAsync("https://localhost:7208/users", dto);
 		string result = await response.Content.ReadAsStringAsync();
+
+		Console.WriteLine(result);
 		if (!response.IsSuccessStatusCode)
 		{
 			throw new Exception(result);
