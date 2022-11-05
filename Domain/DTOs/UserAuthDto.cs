@@ -1,11 +1,11 @@
 namespace Domain.DTOs;
 
-public class UserLoginDto
+public class UserAuthDto
 {
 	public string UserName { get;}
 	public string Password { get; }
 
-	public UserLoginDto(string userName, string password)
+	public UserAuthDto(string userName, string password)
 	{
 		UserName = userName;
 		Password = password;

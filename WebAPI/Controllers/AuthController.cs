@@ -7,6 +7,7 @@ using Domain.DTOs;
 using Domain.Models;
 using HttpClients.ClientInterfaces;
 using Microsoft.IdentityModel.Tokens;
+using WebAPI.Services;
 
 
 namespace WebAPI.Controllers;
@@ -22,6 +23,22 @@ public class AuthController : ControllerBase
 	{
 		this.config = config;
 		this.authService = authService;
+	}
+
+	[HttpPost, Route("login")]
+	public async Task<ActionResult> Login([FromBody] UserAuthDto userAuthDto)
+	{
+		try
+		{
+			User user = await authService.ValidateUser(userAuthDto.UserName, userAuthDto.Password);
+			string token = GenerateJwt(user);
+
+			return Ok(token);
+		}
+		catch (Exception e)
+		{
+			return BadRequest(e.Message);
+		}
 	}
 
 	private string GenerateJwt(User user)
@@ -58,19 +75,4 @@ public class AuthController : ControllerBase
 		return claims.ToList();
 	}
 
-	[HttpPost, Route("login")]
-	public async Task<ActionResult> Login([FromBody] UserLoginDto userLoginDto)
-	{
-		try
-		{
-			User user = await authService.ValidateUser(userLoginDto.UserName, userLoginDto.Password);
-			string token = GenerateJwt(user);
-
-			return Ok(token);
-		}
-		catch (Exception e)
-		{
-			return BadRequest(e.Message);
-		}
-	}
 }

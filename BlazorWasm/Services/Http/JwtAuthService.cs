@@ -18,7 +18,7 @@ public class JwtAuthService : IAuthService
     public async Task LoginAsync(string username, string password)
     {
 	    //edit
-        UserDto userLoginDto = new(username, password);
+        UserAuthDto userLoginDto = new(username, password);
 
         string userAsJson = JsonSerializer.Serialize(userLoginDto);
         StringContent content = new(userAsJson, Encoding.UTF8, "application/json");

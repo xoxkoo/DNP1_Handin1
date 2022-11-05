@@ -14,7 +14,7 @@ public class UserLogic : IUserLogic
 		this.userDao = userDao;
 	}
 
-	public async Task<User> CreateAsync(UserDto dto)
+	public async Task<User> CreateAsync(UserAuthDto dto)
 	{
 		User? existing = await userDao.GetByUsernameAsync(dto.UserName);
 		if (existing != null)
@@ -51,7 +51,7 @@ public class UserLogic : IUserLogic
 		// return Task.FromResult();
 	// }
 
-	private static void ValidateData(UserDto userToCreate)
+	private static void ValidateData(UserAuthDto userToCreate)
 	{
 		string userName = userToCreate.UserName;
 
