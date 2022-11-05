@@ -50,3 +50,8 @@
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/obj/Debug/net6.0/WebAPI.genruntimeconfig.cache
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/obj/Debug/net6.0/ref/WebAPI.dll
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/data.json
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/HttpClients.dll
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/bin/Debug/net6.0/HttpClients.pdb

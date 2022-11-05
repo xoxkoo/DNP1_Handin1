@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "RTLfJLH3/6tuxc/qWEJ6Pdsubtwv/C8/It5VAgn9M1+10hMpPRDcQcvSJS16++zG1LAun2ji3JOBR3FEyq7WjQ==",
+  "dgSpecHash": "/ZTM/+8Utpk9/ls32Fy7mWLkqQcj0MnBkFNV4wYoYmspmrFDbQbUyAJzPTVm3AehfaDWN7Z3z8M0EHQvUBur7g==",
   "success": true,
   "projectFilePath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/antondurcak/.nuget/packages/microsoft.aspnetcore.authorization/6.0.10/microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
+    "/Users/antondurcak/.nuget/packages/microsoft.aspnetcore.metadata/6.0.10/microsoft.aspnetcore.metadata.6.0.10.nupkg.sha512",
+    "/Users/antondurcak/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/antondurcak/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.2/microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512",
+    "/Users/antondurcak/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/antondurcak/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/antondurcak/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

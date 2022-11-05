@@ -1,0 +1,56 @@
+@page "/Post/{id:int}"
+@using HttpClients.ClientInterfaces
+@using Domain.DTOs
+@using Domain.Models
+@inject IUserService userService
+@inject IPostService postService
+
+@if(post != null) {
+
+	<header class="masthead" style="background-image: url('img/mac.jpg')">
+		<div class="container position-relative px-4 px-lg-5">
+			<div class="row gx-4 gx-lg-5 justify-content-center">
+				<div class="col-md-10 col-lg-8 col-xl-7">
+					<div class="site-heading">
+						<h1>@post.Title</h1>
+						<span class="subheading">Post created by</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<p class="post-body">
+		@post.Body
+	</p>
+
+}
+
+@code {
+
+	[Parameter]
+	public int Id { get; set; }
+	private string msg;
+	private User user;
+	private Post? post;
+
+	protected override async Task OnInitializedAsync()
+	{
+		msg = "";
+		try
+		{
+			IEnumerable<Post> posts = await postService.GetAsync(null, Id, null);
+			Console.WriteLine(posts.First().Body);
+			post = posts.First();
+
+			// user = await userService.GetUserAsync(post.OwnerId);
+
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+			msg = e.Message;
+		}
+	}
+
+}

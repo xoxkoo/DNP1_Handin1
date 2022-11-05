@@ -1,0 +1,67 @@
+@using Domain.DTOs
+@using HttpClients.ClientInterfaces
+@namespace Components
+@inject IPostService postService
+@inject NavigationManager navMgr
+
+<div class="form-body">
+	<div class="row">
+		<div class="form-holder">
+			<div class="form-content">
+				<div class="form-items">
+					<form class="requires-validation" novalidate>
+
+						<div class="col-md-12">
+							<input class="form-control" type="text" name="title" placeholder="Title" required @bind="title">
+							<div @bind="titleMessage" class="invalid-feedback"></div>
+						</div>
+
+						<div class="col-md-12">
+							<textarea @bind="body" class="form-control" name="body" cols="30" rows="10" placeholder="Your post here ..."></textarea>
+							<div @bind="bodyMessage" class="invalid-feedback"></div>
+						</div>
+
+						<div class="form-button mt-3">
+							<button @onclick="Create" id="submit" type="submit" class="btn btn-primary">Post</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+@code {
+	private string title;
+	private string body;
+
+	private string titleMessage = "";
+	private string bodyMessage = "";
+
+	private async Task Create()
+	{
+		if (string.IsNullOrEmpty(title))
+		{
+			titleMessage = "Title cannot be empty!";
+			return;
+		}
+		if (string.IsNullOrEmpty(body))
+		{
+			bodyMessage = "Body cannot be empty!";
+			return;
+		}
+
+		try
+		{
+			//TODO id change later
+			PostDto dto = new(1, title, body);
+			await postService.CreateAsync(dto);
+			navMgr.NavigateTo("/");
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+		}
+	}
+
+}

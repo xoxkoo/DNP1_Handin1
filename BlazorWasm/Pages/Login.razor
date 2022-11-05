@@ -1,0 +1,88 @@
+@page "/account"
+
+@using BlazorWasm.Services
+@using Components
+
+@inject IAuthService authService
+@inject NavigationManager navMgr
+
+<AuthorizeView>
+	<NotAuthorized>
+		<header class="masthead" style="background-image: url('img/home-bg.jpg')">
+			<div class="container position-relative px-4 px-lg-5">
+				<div class="row gx-4 gx-lg-5 justify-content-center">
+					<div class="col-md-10 col-lg-8 col-xl-7">
+						<div class="site-heading">
+							<h1>Login</h1>
+							<span class="subheading">Login with your account or <a href="" class="link-info"> register </a>  now 📇</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="form-body">
+            <div class="row">
+                <div class="form-holder">
+                    <div class="form-content">
+                        <div class="form-items">
+
+                            <div class="col-md-12">
+                               <input @bind="userName" class="form-control" type="text" name="name" placeholder="Full Name" required>
+                               <div class="invalid-feedback">Username field cannot be blank!</div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <input @bind="password" class="form-control" type="password" name="password" placeholder="Password" required>
+                               <div class="invalid-feedback">Password field cannot be blank!</div>
+                           </div>
+
+                            <div class="form-button mt-3">
+                                <button id="submit" @onclick="LoginAsync" class="btn btn-primary">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+	</NotAuthorized>
+    <Authorized>
+        <div class="card">
+            <h3>Hello, @context.User.Identity.Name</h3>
+        </div>
+    </Authorized>
+</AuthorizeView>
+
+@code {
+	private string userName;
+	private string password;
+	private string errorLabel;
+
+	private async Task LoginAsync()
+	{
+		errorLabel = "";
+
+		if (string.IsNullOrEmpty(userName))
+		{
+			return;
+		}
+
+		if (string.IsNullOrEmpty(password))
+		{
+			return;
+		}
+
+		try
+		{
+			await authService.LoginAsync(userName, password);
+			// navMgr.NavigateTo("/");
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+			errorLabel = $"Error: {e.Message}";
+		}
+	}
+}

@@ -1,0 +1,7 @@
+// log in as Troels
+POST https://localhost:7208/auth/login
+Content-Type: application/json
+
+{ "Username" : "trmo", "Password" : "onetwo3FOUR" }
+
+###

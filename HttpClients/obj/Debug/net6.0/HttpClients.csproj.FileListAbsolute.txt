@@ -1,0 +1,15 @@
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/bin/Debug/net6.0/HttpClients.deps.json
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/bin/Debug/net6.0/HttpClients.dll
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/bin/Debug/net6.0/HttpClients.pdb
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/bin/Debug/net6.0/Domain.dll
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/bin/Debug/net6.0/Domain.pdb
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/obj/Debug/net6.0/HttpClients.csproj.AssemblyReference.cache
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/obj/Debug/net6.0/HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/obj/Debug/net6.0/HttpClients.AssemblyInfoInputs.cache
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/obj/Debug/net6.0/HttpClients.AssemblyInfo.cs
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/obj/Debug/net6.0/HttpClients.csproj.CopyComplete
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/obj/Debug/net6.0/HttpClients.dll
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/obj/Debug/net6.0/refint/HttpClients.dll
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/obj/Debug/net6.0/HttpClients.pdb
+/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/obj/Debug/net6.0/ref/HttpClients.dll

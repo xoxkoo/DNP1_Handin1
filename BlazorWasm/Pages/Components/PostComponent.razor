@@ -1,0 +1,19 @@
+@using Domain.Models
+@namespace Components
+
+<div class="post-preview">
+	<img class="post-img" src="img/mac.jpg" alt="image">
+	<a href="post/@Post.Id">
+		<h2 class="post-title">@Post.Title</h2>
+		<h3 class="post-subtitle">@Post.Body</h3>
+	</a>
+	<p class="post-meta">
+
+	</p>
+</div>
+
+@code {
+	[Parameter] public Post? Post { get; set; }
+	[Parameter] public User? User { get; set; }
+
+}

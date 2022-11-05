@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj": {}
+    "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj": {}
   },
   "projects": {
-    "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj": {
+    "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj",
+        "projectUniqueName": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj",
+        "projectPath": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj",
         "packagesPath": "/Users/antondurcak/.nuget/packages/",
-        "outputPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/obj/",
+        "outputPath": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/antondurcak/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj": {
-                "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj"
+              "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj": {
+                "projectPath": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj"
               }
             }
           }
@@ -61,14 +61,14 @@
         }
       }
     },
-    "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj": {
+    "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj",
+        "projectPath": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj",
         "packagesPath": "/Users/antondurcak/.nuget/packages/",
-        "outputPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/obj/",
+        "outputPath": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/antondurcak/.nuget/NuGet/NuGet.Config"
@@ -94,6 +94,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

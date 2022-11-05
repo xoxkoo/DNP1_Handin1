@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = BlazorWasm
+build_property.RootNamespace = BlazorWasm
+build_property.ProjectDir = /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Components/CreatePostForm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9DcmVhdGVQb3N0Rm9ybS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Components/LoginForm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9Mb2dpbkZvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Components/PostComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9Qb3N0Q29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/CreatePost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlUG9zdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/PostPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9zdFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Shared/Hero.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0hlcm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Shared/RegisterForm.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1JlZ2lzdGVyRm9ybS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

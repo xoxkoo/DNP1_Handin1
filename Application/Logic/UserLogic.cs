@@ -14,7 +14,7 @@ public class UserLogic : IUserLogic
 		this.userDao = userDao;
 	}
 
-	public async Task<User> CreateAsync(UserRegisterDto dto)
+	public async Task<User> CreateAsync(UserDto dto)
 	{
 		User? existing = await userDao.GetByUsernameAsync(dto.UserName);
 		if (existing != null)
@@ -32,7 +32,26 @@ public class UserLogic : IUserLogic
 		return created;
 	}
 
-	private static void ValidateData(UserRegisterDto userToCreate)
+	// public Task<User> ValidateLogin(string username, string password)
+	// {
+		// Task<IEnumerable<User>> users = userDao.GetAsync(new SearchUserParametersDto(null, username));
+		// User? existingUser = users.FirstOrDefault(u =>
+		// 	u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
+		//
+		// if (existingUser == null)
+		// {
+		// 	throw new Exception("User not found");
+		// }
+		//
+		// if (!existingUser.Password.Equals(password))
+		// {
+		// 	throw new Exception("Password mismatch");
+		// }
+		//
+		// return Task.FromResult();
+	// }
+
+	private static void ValidateData(UserDto userToCreate)
 	{
 		string userName = userToCreate.UserName;
 
