@@ -830,3 +830,5 @@
 /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/G+JTwi3S.gz
 /Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/+wixTfjT.gz
 /Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/build-gz/sP2JBrlw.gz
+/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/scopedcss/Shared/PopUp.razor.rz.scp.css
+/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/scopedcss/projectbundle/BlazorWasm.bundle.scp.css

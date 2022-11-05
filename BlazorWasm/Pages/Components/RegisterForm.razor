@@ -3,6 +3,12 @@
 @namespace Components
 
 @inject IAuthService authService;
+@inject NavigationManager navMgr
+
+<PopUp ShowModal="showModal" Type="success">
+    <p>You have successfully registered!</p>
+    <button class="btn btn-outline-success" @onclick="@Proceed">Log in</button>
+</PopUp>
 
 <div class="form-body">
 	<div class="row">
@@ -42,6 +48,14 @@
 	private string errorLabel;
 	private bool showLabel = false;
 
+	private bool showModal;
+
+	private void Proceed()
+	{
+		showModal = false;
+		navMgr.NavigateTo("/account");
+	}
+
 	private async Task RegisterAsync()
 	{
 		errorLabel = "";
@@ -67,6 +81,7 @@
 		try
 		{
 			await authService.RegisterAsync(new (userName, password, passwordRepeat));
+			showModal = true;
 		}
 		catch (Exception e)
 		{

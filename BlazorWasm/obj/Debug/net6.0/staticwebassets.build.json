@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZpXQ4bTnovYQQksS4KvGYXSmnenM9qyNrgI3yyNEz1o=",
+  "Hash": "WSnChPMX3NreZFGsOUQdmDLRf27t9kA9X39YagPd5SE=",
   "Source": "BlazorWasm",
   "BasePath": "/",
   "Mode": "Root",
@@ -6968,6 +6968,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll"
+    },
+    {
+      "Identity": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/scopedcss/bundle/BlazorWasm.styles.css",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/scopedcss/bundle/",
+      "BasePath": "/",
+      "RelativePath": "BlazorWasm.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/scopedcss/bundle/BlazorWasm.styles.css"
+    },
+    {
+      "Identity": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/scopedcss/projectbundle/BlazorWasm.bundle.scp.css",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "BasePath": "/",
+      "RelativePath": "BlazorWasm.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/obj/Debug/net6.0/scopedcss/projectbundle/BlazorWasm.bundle.scp.css"
     },
     {
       "Identity": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/wwwroot/appsettings.json",

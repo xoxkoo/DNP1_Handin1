@@ -24,6 +24,11 @@
       "Id": 5,
       "UserName": "Xoxo",
       "Password": "123456"
+    },
+    {
+      "Id": 6,
+      "UserName": "Hello there",
+      "Password": "aaa"
     }
   ],
   "Post": [
@@ -56,6 +61,12 @@
       "OwnerId": 1,
       "Title": "This is post",
       "Body": "this is description"
+    },
+    {
+      "Id": 6,
+      "OwnerId": 1,
+      "Title": "title",
+      "Body": "text"
     }
   ]
 }

@@ -81,3 +81,7 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Shared/PopUp.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1BvcFVwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-z3n6m92lpj
