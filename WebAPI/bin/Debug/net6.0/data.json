@@ -32,44 +32,8 @@
     {
       "Id": 3,
       "OwnerId": 1,
-      "Title": "string",
-      "Body": "string"
-    },
-    {
-      "Id": 4,
-      "OwnerId": 1,
       "Title": "Hello",
       "Body": "there"
-    },
-    {
-      "Id": 5,
-      "OwnerId": 1,
-      "Title": "This is post",
-      "Body": "this is description"
-    },
-    {
-      "Id": 6,
-      "OwnerId": 1,
-      "Title": "title",
-      "Body": "text"
-    },
-    {
-      "Id": 7,
-      "OwnerId": 1,
-      "Title": "Hello",
-      "Body": "there"
-    },
-    {
-      "Id": 8,
-      "OwnerId": 3,
-      "Title": "Hello",
-      "Body": "therte"
-    },
-    {
-      "Id": 9,
-      "OwnerId": 1,
-      "Title": "ss",
-      "Body": "sss"
     }
   ]
 }
