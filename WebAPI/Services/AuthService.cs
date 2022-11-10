@@ -21,7 +21,7 @@ public class AuthService : IAuthService
 		users = await userService.GetUsersAsync();
 
 		User? existingUser = users.FirstOrDefault(u =>
-			u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
+			u.UserName.Equals(username));
 
 		if (existingUser == null)
 		{

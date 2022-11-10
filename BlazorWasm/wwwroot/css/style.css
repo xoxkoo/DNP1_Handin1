@@ -11131,6 +11131,9 @@ header.masthead {
 	background-size: cover;
 	background-attachment: scroll;
 }
+header.small {
+	height: 30vh;
+}
 header.masthead:before {
 	content: "";
 	position: absolute;

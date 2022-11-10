@@ -12,23 +12,8 @@
     },
     {
       "Id": 3,
-      "UserName": "string",
-      "Password": "string"
-    },
-    {
-      "Id": 4,
-      "UserName": "hello",
-      "Password": "string"
-    },
-    {
-      "Id": 5,
       "UserName": "Xoxo",
       "Password": "123456"
-    },
-    {
-      "Id": 6,
-      "UserName": "Hello there",
-      "Password": "aaa"
     }
   ],
   "Post": [
@@ -73,6 +58,12 @@
       "OwnerId": 1,
       "Title": "Hello",
       "Body": "there"
+    },
+    {
+      "Id": 8,
+      "OwnerId": 3,
+      "Title": "Hello",
+      "Body": "therte"
     }
   ]
 }
