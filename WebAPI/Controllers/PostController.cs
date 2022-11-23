@@ -11,7 +11,6 @@ public class PostController : ControllerBase
 {
 	private readonly IPostLogic postLogic;
 
-
 	public PostController(IPostLogic postLogic)
 	{
 		this.postLogic = postLogic;

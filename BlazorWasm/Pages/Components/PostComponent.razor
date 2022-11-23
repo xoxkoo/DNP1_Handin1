@@ -27,7 +27,7 @@
 
 	private async Task getUsernameAsync()
 	{
-		User user = await userService.GetUserAsync(Post.OwnerId);
+		User user = await userService.GetUserAsync(Post.UserId);
 		if (user != null)
 		{
 			username = user.UserName;

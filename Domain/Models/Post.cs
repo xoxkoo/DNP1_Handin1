@@ -3,14 +3,16 @@ namespace Domain.Models;
 public class Post
 {
 	public int Id { get; set; }
-	public int OwnerId { get; }
-	public string Title { get; }
-	public string Body { get; }
+	public int UserId { get; set; }
+	public string Title { get; set; }
+	public string Body { get; set; }
 
-	public Post(int ownerId, string title, string body)
+	public Post(int userId, string title, string body)
 	{
-		OwnerId = ownerId;
+		UserId = userId;
 		Title = title;
 		Body = body;
 	}
+
+	private Post() {}
 }
