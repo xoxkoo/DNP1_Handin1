@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/WebAPI.csproj": {}
+    "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj",
-        "packagesPath": "/Users/antondurcak/.nuget/packages/",
-        "outputPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/obj/",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/antondurcak/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj": {
-                "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj"
+              "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Domain\\Domain.csproj"
               }
             }
           }
@@ -57,21 +57,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj",
-        "packagesPath": "/Users/antondurcak/.nuget/packages/",
-        "outputPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/obj/",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/antondurcak/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -116,21 +116,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/EfcDataAccess/EfcDataAccess.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\EfcDataAccess\\EfcDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/EfcDataAccess/EfcDataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\EfcDataAccess\\EfcDataAccess.csproj",
         "projectName": "EfcDataAccess",
-        "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/EfcDataAccess/EfcDataAccess.csproj",
-        "packagesPath": "/Users/antondurcak/.nuget/packages/",
-        "outputPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/EfcDataAccess/obj/",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\EfcDataAccess\\EfcDataAccess.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\EfcDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/antondurcak/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -142,11 +142,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj": {
-                "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj"
+              "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Application\\Application.csproj"
               },
-              "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj": {
-                "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj"
+              "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Domain\\Domain.csproj"
               }
             }
           }
@@ -192,21 +192,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/HttpClients.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\HttpClients\\HttpClients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/HttpClients.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\HttpClients\\HttpClients.csproj",
         "projectName": "HttpClients",
-        "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/HttpClients.csproj",
-        "packagesPath": "/Users/antondurcak/.nuget/packages/",
-        "outputPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/obj/",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\HttpClients\\HttpClients.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\HttpClients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/antondurcak/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -218,8 +218,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj": {
-                "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj"
+              "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Domain\\Domain.csproj"
               }
             }
           }
@@ -249,21 +249,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/WebAPI.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/WebAPI.csproj",
-        "packagesPath": "/Users/antondurcak/.nuget/packages/",
-        "outputPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/WebAPI/obj/",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/antondurcak/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -275,14 +275,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj": {
-                "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj"
+              "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Application\\Application.csproj"
               },
-              "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/EfcDataAccess/EfcDataAccess.csproj": {
-                "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/EfcDataAccess/EfcDataAccess.csproj"
+              "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\EfcDataAccess\\EfcDataAccess.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\EfcDataAccess\\EfcDataAccess.csproj"
               },
-              "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/HttpClients.csproj": {
-                "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/HttpClients/HttpClients.csproj"
+              "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\HttpClients\\HttpClients.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\HttpClients\\HttpClients.csproj"
               }
             }
           }
@@ -325,7 +325,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

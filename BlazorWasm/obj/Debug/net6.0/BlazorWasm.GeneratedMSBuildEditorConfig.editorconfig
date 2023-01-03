@@ -5,81 +5,83 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorWasm
 build_property.RootNamespace = BlazorWasm
-build_property.ProjectDir = /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm/
+build_property.ProjectDir = C:\Users\andre\OneDrive\Dokumenty\GitHub\DNP1_Handin1\BlazorWasm\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/BlazorWasm
+build_property.MSBuildProjectDirectory = C:\Users\andre\OneDrive\Dokumenty\GitHub\DNP1_Handin1\BlazorWasm
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/App.razor]
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Account.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC5yYXpvcg==
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Pages/Account.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Components/AccountComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9BY2NvdW50Q29tcG9uZW50LnJhem9y
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Pages/Components/AccountComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xBY2NvdW50Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Components/CreatePostForm.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9DcmVhdGVQb3N0Rm9ybS5yYXpvcg==
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Pages/Components/CreatePostForm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xDcmVhdGVQb3N0Rm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Components/LoginComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9Mb2dpbkNvbXBvbmVudC5yYXpvcg==
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Pages/Components/LoginComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xMb2dpbkNvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Components/LoginForm.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9Mb2dpbkZvcm0ucmF6b3I=
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Pages/Components/LoginForm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xMb2dpbkZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Components/PostComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9Qb3N0Q29tcG9uZW50LnJhem9y
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Pages/Components/PostComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xQb3N0Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Components/RegisterForm.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9SZWdpc3RlckZvcm0ucmF6b3I=
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Pages/Components/RegisterForm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xSZWdpc3RlckZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/CreatePost.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlUG9zdC5yYXpvcg==
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Pages/CreatePost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/PostPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9zdFBhZ2UucmF6b3I=
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Pages/PostPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Pages/Register.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVnaXN0ZXIucmF6b3I=
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Shared/Hero.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0hlcm8ucmF6b3I=
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Shared/Hero.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlcm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/_Imports.razor]
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/antondurcak/Documents/via/Semester III/DNP/Assignment/HandIn1/BlazorWasm/Shared/PopUp.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1BvcFVwLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-z3n6m92lpj
+[C:/Users/andre/OneDrive/Dokumenty/GitHub/DNP1_Handin1/BlazorWasm/Shared/PopUp.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBvcFVwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-9ez9pxdktz

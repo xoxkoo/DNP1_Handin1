@@ -1,2 +1,6 @@
 /* /Shared/PopUp.razor.rz.scp.css */
-
+.alert[b-9ez9pxdktz] {
+	left: 50%;
+	top: 20%;
+	z-index: 100;
+}

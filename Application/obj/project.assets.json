@@ -331,19 +331,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/antondurcak/.nuget/packages/": {}
+    "C:\\Users\\andre\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/Application.csproj",
-      "packagesPath": "/Users/antondurcak/.nuget/packages/",
-      "outputPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Application/obj/",
+      "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/antondurcak/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -355,8 +355,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj": {
-              "projectPath": "/Users/antondurcak/Documents/VIA/Semester III/DNP/Assignment/HandIn1/Domain/Domain.csproj"
+            "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\andre\\OneDrive\\Dokumenty\\GitHub\\DNP1_Handin1\\Domain\\Domain.csproj"
             }
           }
         }
@@ -386,7 +386,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
